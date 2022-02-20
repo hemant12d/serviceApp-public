@@ -1,0 +1,28 @@
+{
+  "name": "serviceapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "author": "Hemant Soni",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "migrate-mongo": "^8.2.3",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
